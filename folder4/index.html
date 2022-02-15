@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var input = Number(prompt("enter number"));
+
+        var arr = [];
+        for (var i = 1, t = 100; i < input; i++) {
+            arr.push(Math.round(Math.random() * t));
+
+        }
+
+
+        var luwiricxvebi = [];
+
+        for (var i = 0; i < arr.length; ++i) {
+            if ((arr[i] % 2) === 0) {
+                luwiricxvebi.push(arr[i]);
+            }
+        }
+
+
+
+        var ganayofi = luwiricxvebi[0];
+        for (var i = 1; i < luwiricxvebi.length; i++) {
+            ganayofi = ganayofi / luwiricxvebi[i];
+        }
+
+
+
+        for (var i = 0, jami = 0; i < luwiricxvebi.length; jami += luwiricxvebi[i++]);
+
+
+
+        const sxvaoba = luwiricxvebi.reduce((a, b) => a - b);
+
+
+
+        var namravli = 1;
+        for (var i = 0; i < luwiricxvebi.length; i++) {
+            namravli = namravli * luwiricxvebi[i];
+        }
+
+
+
+
+        console.log("დაგენირებული რიცხვები: " + arr);
+        console.log("ლუწი რიცხვები: " + luwiricxvebi);
+        console.log("ლუწი რიცხვების განაყოფი: " + ganayofi + "; ჯამი: " + jami + "; სხვაობა: " + sxvaoba + "; ნამრავლი: " + namravli);
+    </script>
+</body>
+</html>
