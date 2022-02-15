@@ -1,0 +1,154 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #414642;
+}
+header{
+    height: 50px;
+}
+.getrental{
+    width: 200px;
+    color: white;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.rental, .dubai{
+    color: orangered;
+    display: inline-block;
+}
+.row{
+    margin-top: 30px;
+    padding-bottom: 35px;
+    border-bottom: 2px lightgray solid;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: lightgrey;
+    transition: 0.6s;
+}
+.menu a:hover{
+    color: lightslategray;
+}
+.menu-bars{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.upper-row{
+    height: 250px;
+    margin-top: 70px;
+    border: 0px;
+}
+.txt-center{
+    display: flex;
+    align-items: center;
+}
+.upper-text{
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+        font-size: 60px;
+    width: 100%;
+}
+.wrap{
+    z-index: -1;
+    border-bottom: 0px;
+    height: 100px;
+}
+.pirveli-foto{
+    background-image: url("background.jpg");
+    /* transform: scaleX(1); */
+    background-size: cover;
+    height: 600px;
+    border-radius: 0px 20px 20px 0px;
+
+}
+.meore-foto{
+    height: 500px;
+    background-image: url("https://live.staticflickr.com/7071/7406023978_e6f23a2af8_b.jpg");
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+.search-bar{
+    
+    background: rgba(119, 119, 119, 0.5); 
+    backdrop-filter: blur(8px);
+    position: relative;
+    border: 0px;
+    height: 150px;
+    bottom: 50px;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.pick-up{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px lightgray solid;
+    border-right: 2px lightgray solid;
+}
+.return{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-btn{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+  
+    align-items: center;
+}
+#fname, #pick{
+    background-color: transparent;
+    border: transparent;
+    width: 150px;
+    color: white;
+}
+.fa{
+    margin: 10px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border: 0px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: bolder;
+    background-color: white;
+    color: orangered;
+    border-radius: 15px;
+}
+.lower-txt{
+    position: relative;
+    border: 0px;
+
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+}
+.lower-text{
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: right;    
+    font-size: 20px;
+}
